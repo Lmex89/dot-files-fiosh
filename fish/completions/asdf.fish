@@ -1,0 +1,1 @@
+/home/lmex89/.asdf/completions/asdf.fish

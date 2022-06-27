@@ -1,0 +1,1 @@
+/home/lmex89/.fzf/shell/key-bindings.fish
