@@ -1,7 +1,5 @@
 alias fishrc="nvim ~/.config/fish/config.fish"
 alias covim="nvim  ~/.vimrc"
-alias back="cd /opt_fast/Orbinet/backend"
-#alias front="cd /opt/sunwise/sunwise-frontend"
 alias g="git"
 alias gcm="git commit -m"
 alias gca="git commit --amend --no-edit"
@@ -59,21 +57,6 @@ if test -f $LOCAL_CONFIG
 end
 
 alias lltr="ll --tree --level=2 -a"
-function clip_current_branch
-  set sun "https://bitbucket.org/sunwise3/sunwise-backend/branch/"
-  alias set_current_branch="git branch --show-current | xargs echo -n "
-  set new_branch $sun(set_current_branch)
-  echo $new_branch | DISPLAY=:0 xclip -sel clip
-end
 
-function print_current_branch
-  set sun  "https://bitbucket.org/sunwise3/sunwise-backend/branch/"
-  alias set_current_branch="git branch --show-current | xargs echo -n"
-  set new_branc $sun(set_current_branch)
-  echo $new_branc
-
-end
-source ~/.asdf/asdf.fish
-dropbox autostart y
 
 
