@@ -17,8 +17,8 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
+alias C="code . "
 command -qv nvim && alias vim nvim
-alias svim="nvim  /home/lmex89/.SpaceVim.d/init.toml"
 set -gx EDITOR nvim
 
 set -gx PATH bin $PATH
@@ -57,6 +57,4 @@ if test -f $LOCAL_CONFIG
 end
 
 alias lltr="ll --tree --level=2 -a"
-
-
 
